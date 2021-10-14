@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+body {
+  background-color: #d1bf91;
+}
+
+nav {
+  background-color: #60371e;
+  position: sticky;
+  top: 0px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  margin: 30px;
+}
+.dirección {
+  margin-bottom: 10px;
+  padding: 30px;
+  justify-content: space-evenly;
+  display: flex;
+}
+p {
+  text-align: auto;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-style: italic;
+}
+.dirección {
+  font-weight: bold;
+  text-align: center;
+}
+li {
+  padding: 7px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font: italic;
+  padding: 10px;
+}
+/*edición del banner*/
+div#banner {
+  width: 100%;
+  height: 50%;
+}
+img#bannerProyectoPizzeria01 {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 2153px;
+  min-width: 1000px;
+  height: 150px;
+}
+/*Desde aca voy a modificar la visual de la card*/
+.card {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #f9c743;
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  padding: 30px;
+}
+.img-card {
+  width: 30%;
+  object-fit: scale-down;
+  margin-right: 20px;
+}
+/*modificación formulario de contacto*/
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contacto {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #ac341b;
+  margin: 100px;
+  padding: 50px;
+  background-color: #c7c8c4;
+}

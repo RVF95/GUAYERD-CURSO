@@ -1,0 +1,66 @@
+body {
+  background-color: #909497;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.Banner {
+  width: 100%;
+  display: block;
+}
+.Nav1 {
+  background-color: #38579f;
+  position: sticky;
+  top: 0px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.Lista1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  font-size: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Lista1 li {
+  margin-left: 30px;
+}
+.Nav1 a {
+  text-decoration: none;
+  color: white;
+}
+.video {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.h1 {
+  text-align: center;
+  padding: 20px;
+  font-family: fantasy;
+}
+p {
+  padding: 10px;
+  font-size: 1.2em;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.ul {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 1.2em;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.notas {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.copy {
+  text-align: center;
+  color: white;
+}
